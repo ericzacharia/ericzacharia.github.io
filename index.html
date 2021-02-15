@@ -12,7 +12,7 @@
 
 <body>
 
-  <header class="header">
+  <!-- <header class="header">
     <nav class="container flex flex-jc-sb flex-ai-c">
       <a href="/" class="header__logo">
         <img src="images/GlacierAILogo.png" alt="Glacier AI Logo" />
@@ -32,12 +32,28 @@
       </div>
       <a href="#" class="button header__cta hide-for-mobile">Join Our Waitlist</a>
     </nav>
-  </header>
+  </header> -->
+  <header>
+           <button class="nav-toggle" aria-label="toggle navigation">
+               <span class="hamburger"></span>
+           </button>
+           <nav class="nav">
+               <ul class="nav__list">
+                   <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                   <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                   <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                   <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                   <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+                   <li class="nav__item"><a href="img/Danielle_Damon_Resume.pdf" class="nav__link">Resume</a></li>
+               </ul>
+           </nav>
+       </header>
 
   <!-- Hero (Hero Text Styled with CSS Columns) -->
   <section class="hero">
     <div class="hero__image">
-      <p> Glacier AI <p>
+      <p> Glacier AI
+      <p>
     </div>
     <div class="hero__text">
       <h1> Next Generation "Good Boy" </h1>
@@ -168,7 +184,7 @@
   <section class="pricing">
     <div class="pricing__content container">
       <h2> Choose the companion that best fits your needs!
-    </h2>
+      </h2>
 
       <div class="pricing__grid">
         <!-- Grid 1,1 -->
@@ -176,11 +192,11 @@
           <div class="pricing__text">
             <div class="pricing__title">
               <p> Snow Flake - $24,000</p>
-              </div>
+            </div>
             <div class="pricing__title">
               100 hour battery life | GPS compatible</div>
             <div class="pricing__description">
-               Or $500/mo for 48 months. </div>
+              Or $500/mo for 48 months. </div>
           </div>
 
         </div>
@@ -188,7 +204,8 @@
         <div class="pricing__item">
           <div class="pricing__text">
             <div class="pricing__title">
-                <p> Flurry - $36,000</p> </div>
+              <p> Flurry - $36,000</p>
+            </div>
             <div class="pricing__title">
               200 hour battery life | GPS following | Bluetooth Compatible </div>
             <div class="pricing__description">
@@ -199,7 +216,8 @@
         <div class="pricing__item">
           <div class="pricing__text">
             <div class="pricing__title">
-                  <p> Blizzard - $43,200</p> </div>
+              <p> Blizzard - $43,200</p>
+            </div>
             <div class="pricing__title">
               230 hour battery life | GPS following | Bluetooth Compatible | Heads Up Display | Turns into a jet pack (because why not) </div>
             <div class="pricing__description">
@@ -261,6 +279,7 @@
 
     </div>
   </footer>
+  <script src="index.js"></script>
 
 </body>
 
