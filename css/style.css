@@ -406,10 +406,32 @@ header {
   text-align: center;
 }
 
-@media (min-width: 600px) {
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(350px, 1fr));
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1461px) {
+  .portfolio__text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1460px) {
   .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(2, minmax(350px, 1fr));
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 639px) {
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(350px, 1fr));
     max-width: 1500px;
     margin: 0 auto;
   }
@@ -468,7 +490,7 @@ header {
 
 .portfolio__item:hover .portfolio__text {
   opacity: 1;
-  font-size: 12px;
+  /* font-size: 1px; */
 }
 
 .portfolio__item:focus {
