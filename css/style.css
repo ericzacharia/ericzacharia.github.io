@@ -406,11 +406,13 @@ header {
   text-align: center;
 }
 
-.portfolio {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  max-width: 1500px;
-  margin: 0 auto;
+@media (min-width: 600px) {
+  .portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    max-width: 1500px;
+    margin: 0 auto;
+  }
 }
 
 .portfolio__text {
