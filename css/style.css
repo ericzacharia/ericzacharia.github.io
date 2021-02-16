@@ -468,6 +468,7 @@ header {
 
 .portfolio__item:hover .portfolio__text {
   opacity: 1;
+  font-size: 12px;
 }
 
 .portfolio__item:focus {
