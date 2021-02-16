@@ -529,16 +529,16 @@ header {
     list-style: none;
     display: grid;
     width: auto;
-      grid-template-areas: "a a a";
+    grid-template-areas: "a a a";
     /* grid-auto-columns: 450px; */
     grid-auto-rows: 250px;
     gap: 10px;
   }
+
   .course-list li {
     height: 250px;
   }
 }
-
 
 .course {
   text-align: left;
