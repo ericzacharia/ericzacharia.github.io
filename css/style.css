@@ -17,7 +17,7 @@
   --clr-accent: #800000;
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
-  --fs-h3: 1.25rem;
+  --fs-h3: 1.0rem;
   --fs-body: 1.125rem;
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
     0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
@@ -37,6 +37,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
   background: var(--clr-light);
   color: var(--clr-dark);
@@ -46,13 +47,18 @@ body {
   line-height: 1.6;
 }
 
+.item_body {
+  font-size: 0.7rem;
+
+}
+
 section {
   padding: 3em 2em;
 }
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 strong {
@@ -499,32 +505,37 @@ header {
 }
 
 /* Skills */
-.section__title--skills {
-  padding-bottom: 1em;
-}
 
-.my-skills {
+#skills {
   background: var(--clr-light);
   max-width: 1250px;
   margin: 0 auto;
   text-align: center;
 }
 
-.skill i {
-  color: var(--clr-accent);
-  padding: auto;
+#skills h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  ;
 }
 
-.skill {
-  list-style: none;
-  padding-bottom: 1em;
+.skills_imgs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-@media (min-width: 600px) {
-  .skills {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-  }
+.img-tech {
+  width: 15%;
+  height: 15%;
+  padding: 5px;
+}
+
+.img-tech:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: transform ease-out 250ms;
+
 }
 
 /* Coursework */
@@ -538,6 +549,7 @@ header {
   color: var(--clr-accent);
 
 }
+
 .coursework a {
   text-decoration: none;
 }
