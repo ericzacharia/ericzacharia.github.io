@@ -420,13 +420,13 @@ header {
   margin: 0 auto;
 }
 
-@media (min-width: 1461px) {
+@media (min-width: 1251px) {
   .portfolio__text {
     font-size: 12px;
   }
 }
 
-@media (max-width: 1460px) {
+@media (max-width: 1250px) {
   .portfolio {
     display: grid;
     grid-template-columns: repeat(2, minmax(350px, 1fr));
