@@ -342,6 +342,7 @@ header {
 
 .experience {
   max-width: 500px;
+  min-width: 300px;
   margin: 0 auto;
   border-top: 4px solid var(--clr-accent);
   border-bottom: 4px solid var(--clr-accent);
