@@ -351,9 +351,19 @@ header {
   margin-bottom: 1em;
 }
 
+.experience ul {
+  font-size: 12px;
+  text-align: left;
+}
+
+  #long {
+    font-size: 11px;
+  }
+
 @media (min-width: 800px) {
   .experiences {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(350px, 1fr));
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
@@ -363,7 +373,16 @@ header {
   .experience+.experience {
     margin-left: 2em;
   }
+
+  .experience ul {
+    font-size: 16px;
+  }
+  #long {
+    font-size: 13px;
+  }
 }
+
+
 
 /* About Me Section */
 .about-me {
@@ -518,6 +537,8 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
   ;
+  color:#800000;
+  font-size:28px;
 }
 
 .skills_imgs {
@@ -586,6 +607,20 @@ header {
   margin-bottom: 1em;
   border-radius: 15px;
   box-shadow: var(--bs);
+}
+
+.course p {
+  color: #800000;
+}
+
+da {
+  color: #800000;
+  font-family: Arial;
+  font-size: 16px;
+}
+
+.course_ml {
+  background-color: #80000023;
 }
 
 /* Contact */
