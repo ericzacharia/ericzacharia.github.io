@@ -14,7 +14,7 @@
   --fw-bold: 700;
   --clr-light: #fff;
   --clr-dark: #252525;
-  --clr-accent: #800000;
+  --clr-accent: #0f4e91;
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
   --fs-h3: 1.0rem;
@@ -84,6 +84,13 @@ strong {
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
+}
+
+.custom-icon {
+    width: 24px; /* Adjust the width to the desired size */
+    height: 24px; /* Adjust the height to the desired size */
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .btn:hover {
@@ -537,7 +544,7 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
   ;
-  color:#800000;
+  color:#0f4e91;
   font-size:28px;
 }
 
@@ -610,11 +617,11 @@ header {
 }
 
 .course p {
-  color: #800000;
+  color: #0f4e91;
 }
 
 da {
-  color: #800000;
+  color: #0f4e91;
   font-family: Arial;
   font-size: 16px;
 }
