@@ -8,13 +8,13 @@
 }
 
 :root {
-  --ff-primary: 'Playfair Display', Serif;
-  --ff-secondary: 'Source Sans Regular', Sans-Serif;
+  --ff-primary: 'Manrope', 'Playfair Display', Serif;
+  --ff-secondary: 'Playfair Display','Source Sans Regular', Sans-Serif;
   --fw-reg: 400;
   --fw-bold: 700;
   --clr-light: #fff;
-  --clr-dark: #252525;
-  --clr-accent: #0f4e91;
+  --clr-dark: #180157;
+  --clr-accent: #6a00ff;
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
   --fs-h3: 1.0rem;
