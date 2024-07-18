@@ -8,8 +8,8 @@
 }
 
 :root {
-  --ff-primary: 'Manrope', 'Playfair Display', Serif;
-  --ff-secondary: 'Playfair Display','Source Sans Regular', Sans-Serif;
+  --ff-primary: Sans-Serif, Serif;
+  --ff-secondary: 'Manrope', 'Playfair Display','Source Sans Regular', Sans-Serif;
   --fw-reg: 400;
   --fw-bold: 700;
   --clr-light: #fff;
@@ -18,7 +18,7 @@
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
   --fs-h3: 1.0rem;
-  --fs-body: 1.125rem;
+  --fs-body: 0.8rem;
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, .25),
     0.125em 0.125em 0.25em rgba(0, 0, 0, .15);
 }
@@ -28,7 +28,7 @@
     --fs-h1: 4rem;
     --fs-h2: 3.75rem;
     --fs-h3: 1.5rem;
-    --fs-body: 1.25rem;
+    --fs-body: 1.15rem;
   }
 }
 
@@ -675,4 +675,9 @@ da {
 
 .social-list__link {
   padding: .5em;
+}
+
+.experience p {
+  /* # left aliggn the text */
+  text-align: left;
 }
